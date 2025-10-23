@@ -42,9 +42,20 @@
 
 #Activity 4 : Modulo Operator
 
-whole_number = int(input("Please enter the whole number"))
+# whole_number = int(input("Please enter the whole number"))
+#
+# if whole_number % 2 != 0:
+#   print(f"The number {whole_number} is an odd number. ")
+# else:
+#   print(f"The number {whole_number} is an even number. ")
 
-if whole_number % 2 != 0:
-  print(f"The number {whole_number} is an odd number. ")
+
+#Activity 5 : Comparison Operators
+
+first_number = int(input("Please enter the first number: "))
+second_number = int(input("Please enter the second number: "))
+if first_number > second_number:
+  print()
+  print("The second number is the smallest")
 else:
-  print(f"The number {whole_number} is an even number. ")
+  print("Add a number")
