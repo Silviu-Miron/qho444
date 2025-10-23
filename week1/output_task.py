@@ -25,3 +25,11 @@ print()
 print("I am a programming!")
 print()
 print()
+
+#Ascii art
+#Display a box
+
+print("###########")
+print("#         #")
+print("#         #")
+print("###########")
