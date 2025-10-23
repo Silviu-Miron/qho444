@@ -16,3 +16,4 @@ if activity.lower() == 'calculate':
 else:
   print("Performing activity...")
 print("Activity completed!")
+print("Activity completed!")
