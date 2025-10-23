@@ -1,6 +1,6 @@
 
 
-#If
+# Activity 1: If
 
 # book_type = input("What type of book is this?\n")
 #
@@ -15,7 +15,7 @@
 
 
 
-#IF ELSE
+# Activity 2:IF ELSE
 
 # if activity.lower() == 'calculate':
 #   print("Performing Calculation...")
@@ -24,19 +24,27 @@
 # print("Activity completed!")
 # print("Activity completed!")
 
-#IF ELIF
+# Activity 3: IF ELIF
 
-directions = input("Towards which direction should I go (up,down, left or right)? \n")
+# directions = input("Towards which direction should I go (up,down, left or right)? \n")
+#
+# if directions == "up":
+#   print("I am moving in an upward direction")
+# elif directions == "down":
+#   print("I am moving in an downward direction")
+# elif directions == "left":
+#   print("I am moving in an left direction")
+# elif directions == "right":
+#   print("I am moving in an right direction")
+# else:
+#   print("Choose one of the directions")
 
-if directions == "up":
-  print("I am moving in an upward direction")
-elif directions == "down":
-  print("I am moving in an downward direction")
-elif directions == "left":
-  print("I am moving in an left direction")
-elif directions == "right":
-  print("I am moving in an right direction")
+
+#Activity 4 : Modulo Operator
+
+whole_number = int(input("Please enter the whole number"))
+
+if whole_number % 2 != 0:
+  print(f"The number {whole_number} is an odd number. ")
 else:
-  print("Choose one of the directions")
-
-
+  print(f"The number {whole_number} is an even number. ")
