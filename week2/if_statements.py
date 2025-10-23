@@ -14,7 +14,6 @@
 # activity = input("Please enter and activity: \n")
 
 
-
 # Activity 2:IF ELSE
 
 # if activity.lower() == 'calculate':
@@ -52,10 +51,52 @@
 
 #Activity 5 : Comparison Operators
 
-first_number = int(input("Please enter the first number: "))
-second_number = int(input("Please enter the second number: "))
-if first_number > second_number:
-  print()
-  print("The second number is the smallest")
+# first_number = int(input(" Please enter the first number: "))
+# second_number = int(input("Please enter the second number: "))
+# if first_number > second_number:
+#   print()
+#   print("The second number is the smallest")
+# else:
+#   print("Add a number")
+
+citizen = False
+age = 18
+
+if citizen == True and age < 18:
+  print("You are not allow to vote")
+elif citizen == True and age >= 18:
+  print("You are allowed to vote")
+elif citizen == False and age < 18:
+  print("You are not a citizen and don't have the age to vote")
+elif citizen == False and age >= 18:
+  print("You are not a citizen, but you can vote ")
 else:
-  print("Add a number")
+  print("Invalid option ")
+
+
+
+#Activity 6: Counter
+
+#
+# first_number =  int(input(" Please enter first number: \n"))
+# second_number =  int(input(" Please enter second number: \n"))
+# third_number =  int(input(" Please enter third number: \n"))
+#
+# even_count = 0
+# odd_count = 0
+# if first_number % 2 == 0:
+#   even_count += 1
+# else:
+#   odd_count += 1
+#
+# if second_number % 2 == 0:
+#   even_count += 1
+# else:
+#   odd_count += 1
+#
+# if third_number % 2 == 0:
+#   even_count += 1
+# else:
+#   odd_count += 1
+#
+#   print(f"\n There were {even_count} even  and {odd_count} odd numbers.")
