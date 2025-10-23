@@ -12,3 +12,11 @@ print("... How to get user input")
 print()
 
 print("I hope you are enjoying the lesson thus far!")
+
+
+#Display escape characters
+print("\n Display a new line")
+print("\t Display a tab space")
+print("\\ Display a black slash")
+print("\" Display a double quote")
+print("\' Display a single quote")
