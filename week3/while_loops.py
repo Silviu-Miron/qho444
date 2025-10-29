@@ -32,15 +32,51 @@
 
 # Activity 3: ASCII
 
-bars = int(input("How many bars should be charged?"))
+# bars = int(input(" How many bars should be charged?\n "))
+#
+# bar_numbers = 0
+# while bar_numbers < bars:
+#     print("Charging: █ ", end="")
+#     print(" █ " * bar_numbers)
+#     bar_numbers += 1
+#
+#
+#
+# print("\n")
+# print("The battery is fully charged")
 
-bar_numbers = 0
-while bar_numbers < bars:
-    print("Charging: █" , end=" " )
-    print(" █ "* bar_numbers)
-    bar_numbers += 1
+
+# Activity 4 : Repeating word
+
+# message = input("Please enter a phase: ")
+#
+# word= "Hi"
+# charged = ""
+#
+# while len(word) < len (message):
+#     charged += word
+#     print(charged[:len(message)])
+# message = input("Please enter a phase: ")
+
+
+# message = input("Please enter a phrase: \n")
+#
+# i = 0
+# while i < len(message):
+#     print(" Hi ", end="")
+#     i +=1
+
+
+# Activity 5 : Sum 100
+
+# numbers =input("Calculating the sum of the first 100 numbers...")
+#
+# number = 0
+# answer = 0
+# while number < 100:
+#     number +=1
+#     answer += number
+# print(f"...Done! The answer is {answer}")
 
 
 
-print("\n")
-print("The battery is fully charged")
