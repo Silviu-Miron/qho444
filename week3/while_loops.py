@@ -1,5 +1,5 @@
 
-#Activity 1 : Simple loop
+# Activity 1 : Simple loop
 
 
 # apple_removed = int(input("How many apples should I remove?\n"))
@@ -12,6 +12,7 @@
 #     total_apple +=1
 
 
+################################################################################
 # Activity 2 : Count
 
 #Create an input variable
@@ -30,6 +31,8 @@
 #print("All obstacles have been avoided.")
 
 
+
+###########################################################################################
 # Activity 3: ASCII
 
 # bars = int(input(" How many bars should be charged?\n "))
@@ -46,9 +49,10 @@
 # print("The battery is fully charged")
 
 
-# Activity 4 : Repeating word
 
-# message = input("Please enter a phase: ")
+#####################################################################################################
+# Activity 4 : Repeating word
+# message = input(" Please enter a phase: ")
 #
 # word= "Hi"
 # charged = ""
@@ -67,8 +71,8 @@
 #     i +=1
 
 
+###################################################################################################
 # Activity 5 : Sum 100
-
 # numbers =input("Calculating the sum of the first 100 numbers...")
 #
 # number = 0
@@ -79,9 +83,8 @@
 # print(f"...Done! The answer is {answer}")
 
 
-
+######################################################################################################
 #Activity 6 : Sum User Numbers
-
 sum_numbers  = int(input("How many numbers should I sum up?"))
 
 number =0
