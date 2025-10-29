@@ -80,3 +80,14 @@
 
 
 
+#Activity 6 : Sum User Numbers
+
+sum_numbers  = int(input("How many numbers should I sum up?"))
+
+number =0
+final = 0
+while number < sum_numbers :
+    number +=1
+    repeat = int(input(f" Please enter number {number} of {sum_numbers}\n"))
+    final += repeat
+print(f"The answer is {final}")
