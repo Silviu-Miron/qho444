@@ -53,10 +53,22 @@
 
 #Activity 5 : Reverse Word
 
-phrase =input("What phrase do you want to see in reverse?")
-reversed_phrase = 0
-print("\n")
-print("Reversing...")
-print("\n")
-for reversed_phrase in  phrase:
-    print ("The phrase is :",phrase[::-1])
+# phrase =input("What phrase do you want to see in reverse?")
+# reversed_phrase = 0
+# print("\n")
+# print("Reversing...")
+# print("\n")
+# for reversed_phrase in  phrase:
+#     print ("The phrase is :",phrase[::-1])
+
+
+
+#Activity 5: Membership Operators
+
+# print_phrase  = input("What phrase do you want to print?")
+#
+# i = 0
+#
+# for print_phrase in print_phrase:
+#     print(print_phrase)
+#     i +=1
