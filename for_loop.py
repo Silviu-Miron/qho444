@@ -21,12 +21,31 @@
 #
 # print("Done!")
 
+
+##################################################
 # Activity 2: Count Down
 
-steps = int(input("How far are we from the target?\n"))
+# steps = int(input("How far are we from the target?\n"))
+#
+# for i in range(steps,0,-1):
+#
+#     print(f"{i} step remaining")
 
-for i in range(steps,0,-1):
 
-    print(f"{i} step remaining")
+#################################################
 
+#Activity 4 Characters
 
+message = input("What word dou you see ?\n ")
+index = 0
+
+print("\n")
+print("Displaying index positions...")
+print("\n")
+
+for letter in message:
+    print(f" index {index}:, {letter}")
+    index += 1
+
+print("\n")
+print("Done!")
