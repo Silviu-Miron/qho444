@@ -36,16 +36,27 @@
 
 #Activity 4 Characters
 
-message = input("What word dou you see ?\n ")
-index = 0
+# message = input("What word dou you see ?\n ")
+# index = 0
+#
+# print("\n")
+# print("Displaying index positions...")
+# print("\n")
+#
+# for letter in message:
+#     print(f" index {index}:, {letter}")
+#     index += 1
+#
+# print("\n")
+# print("Done!")
 
-print("\n")
-print("Displaying index positions...")
-print("\n")
 
-for letter in message:
-    print(f" index {index}:, {letter}")
-    index += 1
+#Activity 5 : Reverse Word
 
+phrase =input("What phrase do you want to see in reverse?")
+reversed_phrase = 0
 print("\n")
-print("Done!")
+print("Reversing...")
+print("\n")
+for reversed_phrase in  phrase:
+    print ("The phrase is :",phrase[::-1])
