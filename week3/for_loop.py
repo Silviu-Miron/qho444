@@ -50,7 +50,7 @@
 # print("\n")
 # print("Done!")
 
-
+##########################################################
 #Activity 5 : Reverse Word
 
 # phrase =input("What phrase do you want to see in reverse?")
@@ -62,8 +62,8 @@
 #     print ("The phrase is :",phrase[::-1])
 
 
-
-#Activity 5: Membership Operators
+#######################################################
+#Activity 6: Membership Operators
 
 # print_phrase  = input("What phrase do you want to print?")
 #
