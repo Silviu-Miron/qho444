@@ -68,15 +68,29 @@
 
 #Activity 4 : LOOP
 
-def cross_bridge (steps):
-    distance = 0
-    for distance in range(steps):
-        print("Crossed step")
-    if distance == 5:
-        print("Bridge is collapsing!")
+# def cross_bridge (steps):
+#     distance = 0
+#     for distance in range(steps):
+#         print("Crossed step")
+#     if distance == 5:
+#         print("Bridge is collapsing!")
+#
+#     if distance < 5 :
+#         print("We must keep going!")
+#
+# cross_bridge(3)
+# cross_bridge(6)
 
-    if distance < 5 :
-        print("We must keep going!")
+#############################################
 
-cross_bridge(3)
-cross_bridge(6)
+#Activity 5 :Multiple Parameters
+
+def climb_ladder(steps_remaining, steps_crossed):
+    if steps_remaining >  steps_crossed:
+        print("Still some way to go!")
+    else:
+        print("We almost there!")
+
+climb_ladder(5, 2)
+climb_ladder(2, 5)
+
