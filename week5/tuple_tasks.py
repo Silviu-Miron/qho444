@@ -20,16 +20,34 @@
 # print(f"The highest temperature is: {max(temperature)}")
 
 
-def likelihood():
+# def likelihood():
+#     likelihoods = (50, 38, 27, 99, 4)
+#     return likelihoods
+#
+#
+# def run_task1():
+#     hood = likelihood()
+#     print(f"Minimum likelihood of falling: {min(hood)}% ")
+#
+#
+# run_task1()
+
+
+###############################################################
+# Activity 2 Tuple Return Type
+
+
+def likelihood_min_max():
     likelihoods = (50, 38, 27, 99, 4)
-    return likelihoods
+    min_value = f"Minimum likelihood of falling: {min(likelihoods)}%"
+    max_value = f"Maximum likelihood of falling: {max(likelihoods)}%"
+    print(min_value)
+    print(max_value)
 
 
-def run_task1():
-    hood = likelihood()
-    print(f"Minimum likelihood of falling: {min(hood)}% ")
+def run_task2():
+
+    likelihood_min_max()
 
 
-run_task1()
-
-
+run_task2()
