@@ -38,19 +38,63 @@
 # Activity 3: Iterate
 
 
+# def directions():
+#     steps = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+#     return steps
+#
+#
+# directions()
+
+
+# def menu():
+#     direct = input("Please enter a direction:")
+#     step_by_step = directions()
+#     print("\n")
+#     index = 0
+#     for index in range(len(step_by_step)):
+#         print(f"{index}: {step_by_step[index]}")
+#     index += 1
+#
+#
+# menu()
+#############################################################
+# Activity 4:  Populate
+
+
 def directions():
     steps = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
     return steps
 
 
-def menu():
-    print("Please select the direction:")
-    step_by_step = directions()
-    print("\n")
+directions()
+
+
+def menu_and_input():
+    print("Please select a direction:")
+    direct = directions()
     index = 0
-    for index in range(len(step_by_step)):
-        print(f"{index}: {step_by_step[index]}")
-    index += 1
+    for index in range(len(direct)):
+        print(f"{index}: {direct[index]}")
+        index += 1
+
+    choice = int(input("Enter your choice: "))
+    return direct[choice]
 
 
-menu()
+menu_and_input()
+
+
+def run_task4():
+    route = []
+    print("Working out escape route...\n")
+
+    # Collect 5 directions
+    for _ in range(5):
+        direction = menu_and_input()
+        route.append(direction)
+
+    print(f"\nEscape route: {route}")
+
+
+# Run the program
+run_task4()
