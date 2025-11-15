@@ -37,17 +37,58 @@
 # Activity 2 Tuple Return Type
 
 
-def likelihood_min_max():
-    likelihoods = (50, 38, 27, 99, 4)
-    min_value = f"Minimum likelihood of falling: {min(likelihoods)}%"
-    max_value = f"Maximum likelihood of falling: {max(likelihoods)}%"
-    print(min_value)
-    print(max_value)
+# def likelihood_min_max():
+#     likelihoods = (50, 38, 27, 99, 4)
+#     min_value = f"Minimum likelihood of falling: {min(likelihoods)}%"
+#     max_value = f"Maximum likelihood of falling: {max(likelihoods)}%"
+#     print(min_value)
+#     print(max_value)
+#
+#
+# def run_task2():
+#
+#     likelihood_min_max()
+#
+#
+# run_task2()
 
 
-def run_task2():
+###################################################################
+# Activity 3: Nested Tuples
 
-    likelihood_min_max()
+
+# def steps():
+#     likelihoods = (
+#         ("step 1", 50),
+#         ("step2", 38),
+#         ("step3", 27),
+#         ("step4", 99),
+#         ("step5", 4),
+#     )
+#     return likelihoods
+#
+#
+# def run_task3():
+#     new_steps = steps()
+#     good_steps = []
+#     bad_steps = []
+#
+#     for step in new_steps:
+#         # name, likelihood = step
+#         if step[1] >= 50:
+#             bad_steps.append(step)
+#         else:
+#             good_steps.append(step)
+#
+#     print(f"Good steps {len(good_steps)}, Bad steps {len(bad_steps)}")
+#
+#
+# run_task3()
 
 
-run_task2()
+# import array as arr
+#
+# number = arr.array("i", [1, 2, 3, 4, 5])
+#
+# for i in number:
+#     print(i * 3)

@@ -10,18 +10,19 @@
 #     print(option)
 #
 #
-# run_task1()
+# if __name__ == "__main__":
+#     run_task1()
 
 
 # #################################################################
 # Activity 2:  Indexing
 
 
-# def movement():
-#     path = ["Move Forward", 10, "Move Backward", 5, "Move Left", 3, "Move Right", 1]
-#     return path
+def movement():
+    path = ["Move Forward", 10, "Move Backward", 5, "Move Left", 3, "Move Right", 1]
+    return path
 
-#
+
 # def run_task2():
 #     print("Moving...")
 #     direction = movement()
@@ -33,30 +34,33 @@
 #     print(f"{direction [6] } for {steps[3]} steps ")
 #
 #
-# run_task2()
+# if __name__ == "__main__":
+#     run_task2()
+
 ##################################################################
 # Activity 3: Iterate
 
 
-# def directions():
-#     steps = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
-#     return steps
-#
-#
-# directions()
+def directions():
+    steps = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+    return steps
 
 
-# def menu():
-#     direct = input("Please enter a direction:")
-#     step_by_step = directions()
-#     print("\n")
-#     index = 0
-#     for index in range(len(step_by_step)):
-#         print(f"{index}: {step_by_step[index]}")
-#     index += 1
-#
-#
-# menu()
+directions()
+
+
+def menu():
+    # direct = input("Please enter a direction:")
+    step_by_step = directions()
+    print("\n")
+    index = 0
+    for index in range(len(step_by_step)):
+        print(f"{index}: {step_by_step[index]}")
+    index += 1
+
+
+if __name__ == "__main__":
+    menu()
 #############################################################
 # Activity 4:  Populate
 
@@ -97,4 +101,6 @@ def run_task4():
 
 
 # Run the program
-run_task4()
+
+if __name__ == "__main__":
+    run_task4()
