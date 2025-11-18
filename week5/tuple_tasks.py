@@ -38,21 +38,21 @@
 # Activity 2 Tuple Return Type
 
 
-def likelihood_min_max():
-    likelihoods = (50, 38, 27, 99, 4)
-    min_value = f"Minimum likelihood of falling: {min(likelihoods)}%"
-    max_value = f"Maximum likelihood of falling: {max(likelihoods)}%"
-    print(min_value)
-    print(max_value)
-
-
-def run_task2():
-
-    likelihood_min_max()
-
-
-if __name__ == "__main__":
-    run_task2()
+# def likelihood_min_max():
+#     likelihoods = (50, 38, 27, 99, 4)
+#     min_value = f"Minimum likelihood of falling: {min(likelihoods)}%"
+#     max_value = f"Maximum likelihood of falling: {max(likelihoods)}%"
+#     print(min_value)
+#     print(max_value)
+#
+#
+# def run_task2():
+#
+#     likelihood_min_max()
+#
+#
+# if __name__ == "__main__":
+#     run_task2()
 
 
 ###################################################################
@@ -60,13 +60,13 @@ if __name__ == "__main__":
 
 
 # def steps():
-#     likelihoods = (
+#     likelihoods = [
 #         ("step 1", 50),
 #         ("step2", 38),
 #         ("step3", 27),
 #         ("step4", 99),
 #         ("step5", 4),
-#     )
+#     ]
 #     return likelihoods
 #
 #
@@ -94,3 +94,22 @@ if __name__ == "__main__":
 #
 # for i in number:
 #     print(i * 3)
+
+
+# Create a student marks .
+# Convert them into tuple
+# Sort the list
+# Create an array from the sorted list
+# Multiply all array elements by 2
+
+
+import array as arr
+
+
+marks = [78, 92, 65, 88, 70]
+marks_tuple = tuple(marks)
+sorted_marks = sorted(marks)
+marks_array = arr.array("i", sorted_marks)
+result = arr.array("i", (x * 2 for x in marks_array))
+
+print(result)
