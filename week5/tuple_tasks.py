@@ -30,27 +30,29 @@
 #     print(f"Minimum likelihood of falling: {min(hood)}% ")
 #
 #
-# run_task1()
+# if __name__ == "__main__":
+#     run_task1()
 
 
 ###############################################################
 # Activity 2 Tuple Return Type
 
 
-# def likelihood_min_max():
-#     likelihoods = (50, 38, 27, 99, 4)
-#     min_value = f"Minimum likelihood of falling: {min(likelihoods)}%"
-#     max_value = f"Maximum likelihood of falling: {max(likelihoods)}%"
-#     print(min_value)
-#     print(max_value)
-#
-#
-# def run_task2():
-#
-#     likelihood_min_max()
-#
-#
-# run_task2()
+def likelihood_min_max():
+    likelihoods = (50, 38, 27, 99, 4)
+    min_value = f"Minimum likelihood of falling: {min(likelihoods)}%"
+    max_value = f"Maximum likelihood of falling: {max(likelihoods)}%"
+    print(min_value)
+    print(max_value)
+
+
+def run_task2():
+
+    likelihood_min_max()
+
+
+if __name__ == "__main__":
+    run_task2()
 
 
 ###################################################################
@@ -74,7 +76,6 @@
 #     bad_steps = []
 #
 #     for step in new_steps:
-#         # name, likelihood = step
 #         if step[1] >= 50:
 #             bad_steps.append(step)
 #         else:
@@ -83,7 +84,8 @@
 #     print(f"Good steps {len(good_steps)}, Bad steps {len(bad_steps)}")
 #
 #
-# run_task3()
+# if __name__ == "__main__":
+#     run_task3()
 
 
 # import array as arr
