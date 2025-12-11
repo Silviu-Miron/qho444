@@ -50,34 +50,40 @@
 #
 # Create a pie chart showing the percentage share of visitors for each day.
 
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
+#
+#
+# x = ["Mon","Tue","Wed","Thu","Fri","Sat"]
+# y=[55, 73, 68, 80, 120, 150]
+#
+# plt.xlabel('x values')
+# plt.ylabel('y values')
+# plt.bar(x,y)
+# plt.show()
+#
+# from matplotlib import pyplot as plt
+#
+# labels = ["Mon","Tue","Wed","Thu","Fri","Sat"]
+# size = [55, 73, 68, 80, 120, 150]
+#
+# plt.pie(size, labels=labels)
+# plt.show()
+#
+# import matplotlib.pyplot as plt
+#
+# x=["Monday " , "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"]
+# y=[55,73,68,80,120,150]
+#
+#
+# plt.xlabel("x values")
+# plt.ylabel("y values")
+# plt.plot(x, y)
+# plt.show()
 
 
-x = ["Mon","Tue","Wed","Thu","Fri","Sat"]
-y=[55, 73, 68, 80, 120, 150]
-
-plt.xlabel('x values')
-plt.ylabel('y values')
-plt.bar(x,y)
-plt.show()
-
-from matplotlib import pyplot as plt
-
-labels = ["Mon","Tue","Wed","Thu","Fri","Sat"]
-size = [55, 73, 68, 80, 120, 150]
-
-plt.pie(size, labels=labels)
-plt.show()
-
-import matplotlib.pyplot as plt
-
-x=["Monday " , "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"]
-y=[55,73,68,80,120,150]
 
 
-plt.xlabel("x values")
-plt.ylabel("y values")
-plt.plot(x, y)
-plt.show()
+
+
 
 #%%
