@@ -1,28 +1,37 @@
 
 # TODO
 
-class Robot:
-   MAX_ENERGY = 100
-   laws = "Protect, Obey and Survive"
+class Human:
+    MAX_ENERGY = 100
 
-    @staticmethod
-    def the_laws():
-      print(Robot.laws)
+    def __init__(self):
+        self.name = "Human"
+        self.age = 0
+        self.energy = Human.MAX_ENERGY
 
-    @classmethod
-    def assemble(cls):
-     return cls("Assembled Robot")
+    def display(self):
+        print(f"I am {self.name}")
 
-   def __init__(self, name="Robot"):
-    self.name = name
-    self.age = 0
-    self.energy = 0
+    def grow(self):
+        self.age += 1
 
-  def display(self):
-    print(f"I am {self.name}")
+    def eat(self, amount):
+        self.energy = min(self.energy + amount, Human.MAX_ENERGY)
 
-robot = Robot()
-robot.display()
+    def move(self, distance):
+        self.energy = max(self.energy - distance, 0)
+
+    def __repr__(self):
+        return f"Human(name={self.name}, age={self.age}, energy={self.energy})"
+
+    def __str__(self):
+        return f"{self.name} (Age: {self.age}, Energy: {self.energy})"
 
 
-
+if __name__ == "__main__":
+    human = Human()
+    human.display()
+    human.grow()
+    human.move(150)
+    print(human)
+    print(repr(human))
